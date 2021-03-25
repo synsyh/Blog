@@ -1,0 +1,9 @@
+.intro-header {
+  background-size: cover;
+  -o-background-size: cover;
+  background-color: #808080;
+  background-position: center center;
+  background-attachment: scroll;
+  margin-bottom: 50px;
+  position: relative;
+}

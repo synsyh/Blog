@@ -1,0 +1,19 @@
+markdown h1 {
+  color: #0085A1;
+}
+
+image {
+  max-width: 100%;
+}
+
+.markdown {
+  max-width: 100%;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+code {
+  background-color: #868e96;
+}

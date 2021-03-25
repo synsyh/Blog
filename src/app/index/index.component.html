@@ -1,0 +1,31 @@
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="post-preview" *ngFor="let i of postsNum">
+        <a [href]="posts[i].href">
+          <h2 class="post-title">
+            {{posts[i].title}}
+          </h2>
+          <!--          <h3 class="post-subtitle">-->
+          <!--            {{posts[i].description}}-->
+          <!--          </h3>-->
+        </a>
+        <p class="post-meta">
+          {{posts[i].date}}
+        </p>
+        <hr>
+      </div>
+      <!-- Pager -->
+      <div class="clearfix">
+        <a class="btn btn-primary float-right" (click)="paginator(1)" *ngIf="olderPosts">Older Posts &rarr;</a>
+        <a class="btn btn-primary float-left" (click)="paginator(-1)" *ngIf="newerPosts">← Newer Posts</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<!-- Footer -->
+
