@@ -24,7 +24,7 @@ export class IndexComponent implements OnInit {
       this.pageNum = parseInt(data.pageNum, 10);
       console.log(this.pageNum);
       if (isNaN(this.pageNum)) {
-        this.router.navigate(['page/0']);
+        this.router.navigate(['articles/page/0']);
       }
       if (this.pageNum === undefined) {
         this.pageNum = 0;
@@ -48,7 +48,7 @@ export class IndexComponent implements OnInit {
 
   paginator(n): void {
     this.pageNum = this.pageNum * 1 + 1 * n;
-    this.router.navigate(['page/' + this.pageNum]);
+    this.router.navigate(['articles/page/' + this.pageNum]);
   }
 
 

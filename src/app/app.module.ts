@@ -10,6 +10,7 @@ import {MarkdownModule, MarkedOptions, MarkedRenderer} from 'ngx-markdown';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { AboutComponent } from './about/about.component';
 import { HeaderComponent } from './header/header.component';
+import { PublicationsComponent } from './publications/publications.component';
 
 export function markedOptionsFactory(): MarkedOptions {
   const renderer = new MarkedRenderer();
@@ -36,7 +37,8 @@ export function markedOptionsFactory(): MarkedOptions {
     PostComponent,
     FooterComponent,
     AboutComponent,
-    HeaderComponent
+    HeaderComponent,
+    PublicationsComponent
   ],
   imports: [
     BrowserModule,

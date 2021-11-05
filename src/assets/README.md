@@ -4,17 +4,17 @@ I am Yuning Sun, a developer from China, currently living in New Jersey.
 - 🎓 I just got a master's degree in software engineering
 - 💻 I’m looking for a job related to web dev. or machine learning
 - 🐱 I’m a cataholic
-- 📮 How to reach me: <ysyuningsun@gmail.com>
+- 📮 How to reach me: <sun.yuning@outlook.com.com>
 ## Skills
 - Operating system:   
 ![macOS](http://img.shields.io/badge/-macOS-000000?style=flat-square&logo=macos)
 ![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=ffffff)
 ![Windows](http://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=windows)
 ![Shell](https://img.shields.io/badge/-Shell-FFD500?style=flat-square&logo=shell&logoColor=000000)
-- Language:   
+- Language:  
+  ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=ffffff)
 ![Python](http://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000000)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=ffffff)
 - Database:   
 ![MySQL](http://img.shields.io/badge/-MySQL-007599?style=flat-square&logo=MySQL&logoColor=ffffff)
 ![MongoDB](http://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=MySQL&logoColor=ffffff)

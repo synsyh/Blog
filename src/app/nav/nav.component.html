@@ -6,10 +6,13 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Index<span class="sr-only">(current)</span></a>
+      <li class="nav-item" routerLink="/articles" routerLinkActive="active">
+        <a class="nav-link" href="/">Articles<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item" routerLink="/publications" routerLinkActive="active">
+        <a class="nav-link" href="/publications">Publications<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item" routerLink="/about" routerLinkActive="active">
         <a class="nav-link" href="/about">About me</a>
       </li>
     </ul>
